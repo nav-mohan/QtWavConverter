@@ -1,0 +1,8 @@
+#if !defined(CONTANTS_H)
+#define CONTANTS_H
+
+#define INBUFSIZE_MONO 4096
+#define OUTBUFSIZE_MONO (int) (1.25 * INBUFSIZE_MONO) + 7200
+#define SAMPLE_RATE_HZ_MONO 44100
+
+#endif // CONTANTS_H
